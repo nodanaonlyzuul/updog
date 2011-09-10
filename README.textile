@@ -3,40 +3,45 @@ h2. What's Up Dog?
 Nothing, what's up with you?
 Well - now that you ask - this is a command line tool for getting weather forecasts.
 
+h2. Installation
+@gem install updog@
+
 h2. Usage
 
-@SHELL> updog 10010@
-@SHELL> updog tallahassee,fl@
+@> updog 10010@
+or
+@> updog Brooklyn,NY@
 
 h2. Example Session
 
-stephen:~/Desktop/updog (master)$ updog 11211
+stephen:~/Desktop$ updog Tallahassee
 
 Friday
  High: 85 F / 29 C 
- Low:  68 F / 20 C   
- Partly cloudy this evening...then becoming mostly cloudy. Lows in the upper 60s. West winds 5 to 10 mph...becoming northwest after midnight.  
+ Low:  58 F / 14 C   
+ Mostly clear. Lows 57 to 62. West winds around 5 mph in the evening becoming light.  
 
 Saturday
- High: 81 F / 27 C 
- Low:  65 F / 18 C   
- Partly sunny with a 20 percent chance of showers. Highs around 80. Northeast winds around 5 mph...becoming east in the afternoon.  
+ High: 90 F / 32 C 
+ Low:  63 F / 17 C   
+ Mostly sunny. Highs around 90. North winds around 5 mph.  
 
 Sunday
- High: 74 F / 23 C 
- Low:  63 F / 17 C   
- Mostly cloudy. A slight chance of showers in the evening. Lows in the mid 60s. East winds 5 to 10 mph. Chance of rain 20 percent.  
+ High: 90 F / 32 C 
+ Low:  65 F / 18 C   
+ Mostly clear. Lows around 61. West winds around 5 mph in the evening becoming light.  
 
 Monday
- High: 79 F / 26 C 
- Low:  63 F / 17 C   
- Mostly cloudy with a 20 percent chance of showers. Highs in the mid 70s. East winds around 10 mph.  
+ High: 88 F / 31 C 
+ Low:  67 F / 19 C   
+ Partly cloudy. Highs 89 to 92. North winds around 5 mph shifting to the northwest in the afternoon.  
 
 Tuesday
- High: 79 F / 26 C 
- Low:  65 F / 18 C   
- Mostly cloudy with a 20 percent chance of showers. Lows in the mid 60s. Southeast winds 5 to 10 mph...becoming south after midnight.  
+ High: 90 F / 32 C 
+ Low:  67 F / 19 C   
+ Partly cloudy with a 20 percent chance of showers and thunderstorms. Lows 63 to 66. West winds around 5 mph in the evening becoming light.  
 
 Wednesday
- High: 77 F / 25 C 
- Low:  63 F / 17 C   
+ High: 92 F / 33 C 
+ Low:  68 F / 20 C   
+
