@@ -1,0 +1,9 @@
+h2. What's Up Dog?
+
+Nothing, what's up with you?
+Well - now that you ask - this is a command line tool for getting weather forecasts.
+
+h2. Usage
+
+@SHELL> updog 10010@
+@SHELL> updog tallahassee,fl@
