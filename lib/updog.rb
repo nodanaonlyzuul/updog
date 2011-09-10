@@ -1,11 +1,12 @@
 require "rubygems"
 require "nokogiri"
 require 'open-uri'
+require 'cgi'
 
 module Updog  
   def self.get_weather(area)
-    url       = "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="
-    document  = Nokogiri::XML(open(url << area))
+    url       = "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=#{CGI.escape(area)}"
+    document  = Nokogiri::XML(open(url))
     
     qualitive = document.css('fcttext')
     
