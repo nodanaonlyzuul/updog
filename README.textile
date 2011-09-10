@@ -7,3 +7,36 @@ h2. Usage
 
 @SHELL> updog 10010@
 @SHELL> updog tallahassee,fl@
+
+h2. Example Session
+
+stephen:~/Desktop/updog (master)$ updog 11211
+
+Friday
+ High: 85 F / 29 C 
+ Low:  68 F / 20 C   
+ Partly cloudy this evening...then becoming mostly cloudy. Lows in the upper 60s. West winds 5 to 10 mph...becoming northwest after midnight.  
+
+Saturday
+ High: 81 F / 27 C 
+ Low:  65 F / 18 C   
+ Partly sunny with a 20 percent chance of showers. Highs around 80. Northeast winds around 5 mph...becoming east in the afternoon.  
+
+Sunday
+ High: 74 F / 23 C 
+ Low:  63 F / 17 C   
+ Mostly cloudy. A slight chance of showers in the evening. Lows in the mid 60s. East winds 5 to 10 mph. Chance of rain 20 percent.  
+
+Monday
+ High: 79 F / 26 C 
+ Low:  63 F / 17 C   
+ Mostly cloudy with a 20 percent chance of showers. Highs in the mid 70s. East winds around 10 mph.  
+
+Tuesday
+ High: 79 F / 26 C 
+ Low:  65 F / 18 C   
+ Mostly cloudy with a 20 percent chance of showers. Lows in the mid 60s. Southeast winds 5 to 10 mph...becoming south after midnight.  
+
+Wednesday
+ High: 77 F / 25 C 
+ Low:  63 F / 17 C   
