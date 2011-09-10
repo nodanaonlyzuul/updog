@@ -1,0 +1,3 @@
+require 'updog'
+
+Updog.get_weather(ARGV[0])
