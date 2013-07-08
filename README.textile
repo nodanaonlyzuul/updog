@@ -4,6 +4,7 @@ Nothing, what's up with you?
 Well - now that you ask - this is a command line tool for getting weather forecasts.
 
 h2. Installation
+
 @gem install updog@
 
 h2. Usage
